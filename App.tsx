@@ -11,15 +11,16 @@
 import React from 'react';
 import {
   SafeAreaView,
-
 } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import Router from './src/screens/router';
 
 const App = () => {
 
   return (
-    <SafeAreaView >
-
-    </SafeAreaView>
+    <NavigationContainer>
+      <Router />
+    </NavigationContainer>
   );
 };
 
